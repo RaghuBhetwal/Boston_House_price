@@ -32,7 +32,7 @@ def predict():
     final_input  = scalar.transform(np.array(data).reshape(1,-1))
     print(final_input)
     output = model.predict(final_input)[0]
-    return render_template("home.html", Prediction_text = "The House Price Prediction is {}".format(output))
+    return render_template("home.html", Prediction_text = "The House Price Prediction is $ {}".format(round(output*1000,2)))
 
 if __name__ == "__main__":
     app.run(debug = True)
