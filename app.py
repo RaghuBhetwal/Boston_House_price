@@ -3,7 +3,9 @@ from flask import Flask, jsonify, render_template, request, url_for
 import numpy as np
 import pandas as pd
 
-app = Flask(__name__)  # starting point of flask
+app = Flask(__name__, template_folder="templates")
+
+#app = Flask(__name__)  # starting point of flask
 
 #Loading the model
 model = pickle.load(open("regressionModel.pkl","rb")) 
