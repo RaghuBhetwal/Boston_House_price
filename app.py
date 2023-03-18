@@ -1,9 +1,10 @@
-import pickle
+import picklehttps://github.com/RaghuBhetwal/Boston_House_price/blob/main/app.py
+import json
 from flask import Flask, jsonify, render_template, request, url_for
 import numpy as np
 import pandas as pd
 
-app = Flask(__name__, template_folder="templates")
+app = Flask(__name__)
 
 #app = Flask(__name__)  # starting point of flask
 
