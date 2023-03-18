@@ -1,4 +1,4 @@
-import picklehttps://github.com/RaghuBhetwal/Boston_House_price/blob/main/app.py
+import pickle
 import json
 from flask import Flask, jsonify, render_template, request, url_for
 import numpy as np
