@@ -38,3 +38,24 @@ Flask
           
       ´``
 5.Render HTML in local browser 
+
+# Screenshots
+
+# First View
+
+![P1](https://user-images.githubusercontent.com/88844603/229171686-b1e8d69a-b94e-4568-923e-afee0948e038.jpeg)
+
+# Second Img :: Enter data
+
+![p2](https://user-images.githubusercontent.com/88844603/229173474-f2b7e8a3-f83a-4bdc-a8cb-02c16a662b1d.jpeg)
+
+
+# Finally: Predict
+
+![p_final](https://user-images.githubusercontent.com/88844603/229173495-419b02ef-7781-4c6f-ad8a-ff18f80b78ac.jpeg)
+
+
+
+
+
+
